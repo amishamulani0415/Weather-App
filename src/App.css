@@ -1,0 +1,47 @@
+/* src/App.css */
+body{
+  background-color: #cccccccf;
+}
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.App h1{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(181, 174, 174);
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.weather {
+  margin-top: 20px;
+}
+
+.weather h2 {
+  font-size: 24px;
+}
+
+.weather p {
+  font-size: 18px;
+}
+
